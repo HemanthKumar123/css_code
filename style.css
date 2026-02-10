@@ -1,0 +1,18 @@
+p{
+    color: chartreuse !important;
+}
+.test{
+    background-color: red;
+    color: white;
+}
+.test3{
+    font-size: 38px;
+}
+.test4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 29;
+}
+a,span,h4,#articles{
+    color: #fff;
+    background-color: blue;
+}
