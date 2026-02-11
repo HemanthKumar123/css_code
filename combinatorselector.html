@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- dfsdfsdf-->
+    <style>
+        /* decendent selectors */
+        #parent p{
+            background-color: red;
+        }
+        /* child selectors */
+        #parent >p{
+            color:yellow;
+        }
+        /* adjacent sibling selectors */
+        #parent +p{
+            color:blue;
+        }
+        /* general sibling selectors */
+        #parent ~p{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <p>Paragraph1</p>
+        <p>Paragraph2</p>
+        <section id="sectionblock">
+            <p>Paragrarph3</p>
+            <p>Paragrarph4</p>
+            <span>Span Tag</span>
+        </section>
+        <p>paragrapgh5</p>
+    </div>
+    <p>Paragraph6</p>
+    <p>Paragraph7</p>
+    <p>Paragraph8</p>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* anchor selectors */
+        a:link{
+            color:red;
+        }
+        a:active{
+            color:#000;
+        }
+        a:visited{
+            color:blue;
+        }
+        #foc:focus{
+            color:red;
+            background-color: yellow;
+        }
+        #acnchor:hover{
+            color:red;
+            background-color: bisque;
+        }
+
+        ul li:first-child{
+            background-color: aqua;
+        }
+        ul li:last-child{
+            color:blue;
+        }
+        ul li:nth-child(6)
+        {
+            color:tomato;
+        }
+        div p:only-child{
+            color:blueviolet;
+        }
+        
+    </style>
+</head>
+<body>
+    <a id="acnchor" href="">Google</a>
+    <input type="text" id="foc">
+    <ul>
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+        <li>list4</li>
+        <li>list5</li>
+        <li>list6</li>
+        <li>list7</li>
+        <li>list8</li>
+        <li>list9</li>
+        <li>list10</li>
+    </ul>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>
